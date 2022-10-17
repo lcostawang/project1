@@ -2,29 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
   <title>LWP1 - Resume</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div>
+  <nav>
     <ul>
       <li><a href="index.html">index.html</a></li>
-      <li><a href="resume.html">resume.html</a></li>
+      <li><a id="onpage" href="#">resume.html</a></li>
       <li><a href="jpfood.html">jpfood.html</a></li>
     </ul>
-  </div>
-  <header>
-    <h1>LUCAS VINICIUS COSTA WANG</h1>
-    <p>Chicago, IL | [phone number redacted] | lcostawang@hawk.iit.edu</p>
+  </nav>
+  <header class="fixed">
+    <h1 id="blkheader">LUCAS VINICIUS COSTA WANG</h1>
+    <h3>Chicago, IL | [phone number redacted] | lcostawang@hawk.iit.edu</p>
     <img src="media/mypic.jpg" alt="Picture of Lucas">
   </header>
-  <div>
+  <div class="fixed">
     <h3>EDUCATION</h3>
     <p><strong>Bachelor of Science in Computer Science - Illinois Institute of Technology</strong></p>
     <p>Expected Graduation: May 2025</p>
   </div>
-  <section>
+  <section class="fixed">
     <h3>SKILLS</h3>
     <ul>
       <li>Java (Object-oriented), Python, RISC-V Assembly</li>
@@ -35,7 +38,7 @@
       <li>Languages: English, Portuguese (fluent), French (basic conversation)</li>
     </ul>
   </section>
-  <section>
+  <section class="fixed">
     <h3>RELEVANT COURSEWORK</h3>
     <ul>
       <li>Java: individual and team projects creating applications and simulating real-life scenarios</li>
@@ -45,14 +48,14 @@
       <li>Physics: general mechanics and electromagnetism</li>
     </ul>
   </section>
-  <section>
+  <section class="fixed">
     <h3>PROJECTS</h3>
     <p><strong>“Taco Truck” Simulator (IIT Project)</strong></p>
     <p>Created a simulation of a food truck-style business with a working menu system and interface, and features such as a list of ingredient amounts that updates with each order, an accounting system that consolidates profits for each session, and a display of financial and ingredient information shown at the end of each session - Programmed in Java</p>
     <p><strong>Music Playlist Interface (IIT Project)</strong></p>
     <p>Created a mock interface for a music player software, where the user is able to create playlists, add songs to said playlists (either manually or by importing another playlist), shuffle a playlist, and “play” songs (audio capability itself was not programmed in), among other features - Programmed in Java</p>
   </section>
-  <section>
+  <section class="fixed">
     <h3>EXTRACURRICULAR INVOLVEMENT</h3>
     <p><strong>Illinois Tech Esports, Team Member</strong> (January 2021 &ndash; Present)</p>
     <ul>
