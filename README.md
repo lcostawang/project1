@@ -1,2 +1,2 @@
-# project1
-My first project for ITMD-361.
+# project2
+My second project for ITMD-361.
