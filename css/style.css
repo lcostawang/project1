@@ -170,8 +170,8 @@ header img{
 iframe{
   display: block;
   box-sizing: border-box;
-  width: 720px;
-  height: 360px;
+  width: 360px;
+  height: 180px;
   margin: 2.5em auto;
 }
 
@@ -210,4 +210,56 @@ em{
   height: 725px;
   background-color: #ccc;
   margin: 25px auto;
+}
+
+/** media query stuff **/
+
+#gyudon, #ramen, #katsu{
+  border-color: #6e0006;
+}
+
+#mobileheader h1{
+  font-size: 2em;
+}
+
+.mobilesub{
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 600px){
+  iframe{
+    transform: scale(1.5, 1.5);
+  }
+  
+  #gyudon, #ramen, #katsu{
+    transform: scale(1.25, 1.25);
+    border-color: #0e0170;
+  }
+  
+  #mobileheader h1{
+    font-size: 2.5em;
+  }
+
+  .mobilesub{
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 856px){
+  iframe{
+    transform: scale(2, 2);
+  }
+
+  #gyudon, #ramen, #katsu{
+    transform: scale(1.5, 1.5);
+    border-color: #0e0170;
+  }
+  
+  #mobileheader h1{
+    font-size: 3em;
+  }
+
+  .mobilesub{
+    font-size: 2em;
+  }
 }
