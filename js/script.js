@@ -45,7 +45,7 @@ function initMap(){
     content: text2,
   });
   
-  google.maps.event.addListener(marker, 'click', function() {
+  google.maps.event.addListener(rectangle, 'click', function() {
     infoWindow2.open(myMap, marker);
   });
 }
