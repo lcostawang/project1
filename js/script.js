@@ -50,4 +50,12 @@ function initMap(){
   });
 }
 
+function clicker(){
+  var emojiPic = document.getElementById('emoji');
+  emojiPic.addEventListener('click', function() {
+    alert("u r cool B)");
+  });
+}
+
+window.addEventListener('load', clicker);
 window.initMap = initMap;
