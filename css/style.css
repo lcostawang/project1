@@ -196,3 +196,18 @@ em{
 #blkheader{
   color: black;
 }
+
+#wrapper{
+  width: 800px;
+  height: 800px;
+  background-color: #35589e;
+  margin: 2.5em auto;
+  overflow: hidden;
+}
+
+#canvas{
+  width: 725px;
+  height: 725px;
+  background-color: #ccc;
+  margin: 25px auto;
+}
